@@ -1,14 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import UseRef from "./UseRef";
-import Usecallback from "./UseCallback";
+import UseCallback from "./UseCallback";
 import UseMemo from "./UseMemo";
+import Parenet from "./Useimperativehandle/Parenet";
 
 function App() {
   return (
     <div className="App">
-      <UseRef />
-
+      {/* <UseRef /> */}
+        <Parenet/>
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
     </div>
